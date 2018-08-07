@@ -1,0 +1,12 @@
+
+
+        matveyab
+        ........
+2^8=256
+   
+Matveyab
+mAtveyab
+MAtvey
+
+echo {m,M}{a,A}{t,T}{v,V}{e,E}{y,Y}{a,A}{b,B}{1..9}
+echo {0..9}{0..9}{0..9}{0..9}{0..9}{0..9}{0..9}{0..9} | wc -w

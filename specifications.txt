@@ -1,0 +1,35 @@
+Usage: main.py
+
+--date-range YYYY-YYYY -> Output is the file of all dates between this given range in formats:
+                            YYYYMMDD
+                            DDMMYYYY
+                            MMDDYYYY
+                            YYYY-MM-DD (Character '-' can be replaced with another one)
+                            DD-MM-YYYY (Character '-' can be replaced with another one)
+                            MM-DD-YYYY (Character '-' can be replaced with another one)
+
+-digitalPwd lenght -> Outputs all permutations of digits of given length.
+                      Example: length = 2 -> 00 01 02 ... 99
+
+-names Name1 Name2 Name3 -> Produces passwords based on NameN and their combination
+                            Example: Name1AndName2, Name1&Name2, Name1Name2
+
+-addSpecialEnd specialString -> Adds option which adds permutations with special string at the end
+-addSpecialBeg specialString -> Adds option which adds permutations with special string in the beginning
+
+-permuteCap -> adds permutations for capital and small letters
+
+-replaceA -> adds permutations for all A letters to be replaced with @
+
+-replaceO -> adds permutations for all A letters to be replaced with 0 (zero)
+
+-phoneNumber -> +1NNNNNNNNNN; NNNNNNNNNN; NNN-NNN-NNNN; +1NNN-NNN-NNNN
+
+-
+
+-splitIntoFiles -> Splits different option generated passwords into files
+
+
+Recommended Usage: Generate Dates first and run attack against dates - the easiest and most popular passwords
+                   Generate Digits passwords - When the router gets set up companies may give it digital password
+                   If none of those 2 worked -> best of luck trying to Brute Force not a dummy user with other options
